@@ -28,6 +28,8 @@ SUNet modification alongside instructions on how to use it can be found here: {l
 ```
 /
 ├── environments #Contains the conda environments for all 3 projects
-├── ShapeNet #Contains the original ShapeNet and ShapeNetL1 modification
+├── ShapeNetL1 #Contains the original ShapeNet with ShapeNetL1 modifications added
+├── scripts #Contains helper scripts to generate the dataset for SUNet and/or generate the same dataset input for all SUNet, ShapeNet and ShapeNetL1 if that is desired, as well as a way to export SUNet's evaluation metrics
+├── evaluation #Contains the jupyter notebooks, used to evaluate the results. Files originate from the official ShapeNet project, with modifications where needed
 └── HowToUse.md #Contains instructions on how to install and use this project
 ```
