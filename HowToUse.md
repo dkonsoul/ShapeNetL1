@@ -133,8 +133,9 @@ Inside the evaluation directory, we will find 4 scripts, numbered in order that 
 ```text
 /
 ├── 1. extract_evaluation_dataset.ipynb # Generates an evaluation dataset, which we need to feed to our models, before the evaluation
-
-└── 
+├── 2. extract_data_for_plots.ipynb # Extracts SUNet's results and runs inference for ShapeNet and ShapeNetL1 before the evaluation
+├── 3. make_plots.ipynb # Creates the evaluation plots
+└── 4. extract_images.ipynb # Creates the output image comparison
 ```
 
 
