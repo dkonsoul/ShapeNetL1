@@ -18,16 +18,17 @@ original project: https://github.com/FanChiMao/SUNet
 
 ShapeNet is included only as selected files, since only a few of them are needed and has been reorganized. Because this repository does not preserve the original structure, it is not maintained as a fork.
 
-The whole pipeline, requires 3 different environment setups: One for ShapeNet/ShapeNetL1, one for galaxy2galaxy and one for SUNet. Inside the "environments" directory, you will find the corresponding environment.yaml in order to use these projects.
+The whole pipeline, requires 2 different environment setups: One for ShapeNet/ShapeNetL1 and one for SUNet.
+Inside the "environments" directory, you will find the corresponding environment.yaml in order to use these projects.
 
 In this repository, you will find the ShapeNetL1 modification, based on the original ShapeNet code, alongside instructions on how to use it.
 
-SUNet modification alongside instructions on how to use it can be found here: {link pending, awaiting license issues}
+Information about how to install and use the SUNet modification, can be found in this repo, under HowToUse.md.
 
 # Repository Structure
 ```
 /
-├── environments #Contains the conda environments for all 3 projects
+├── environments #Contains the conda environments required for this project
 ├── ShapeNetL1 #Contains the original ShapeNet with ShapeNetL1 modifications added
 ├── scripts #Contains helper scripts to generate the dataset for SUNet and/or generate the same dataset input for all SUNet, ShapeNet and ShapeNetL1 if that is desired, as well as a way to export SUNet's evaluation metrics
 ├── evaluation #Contains the jupyter notebooks, used to evaluate the results. Files originate from the official ShapeNet project, with modifications where needed

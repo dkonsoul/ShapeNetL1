@@ -2,7 +2,7 @@
 
 # galaxy2galaxy
 
-Galaxy2galaxy is used for the dataset generation. The version in the repositories, is not compatible with this project. Luckily the compatible version can easily be installed by just installing the galaxy2galaxy_env.yaml, in the environments directory:
+Galaxy2galaxy is used for the dataset generation. The version in the repositories, is not compatible with this project. Luckily the compatible version can easily be installed by just installing the ShapeNetL1.yaml environment, that can be found in the environments directory:
 
 1. Clone this repository
 
@@ -10,18 +10,18 @@ Galaxy2galaxy is used for the dataset generation. The version in the repositorie
 git clone https://github.com/dkonsoul/ShapeNetL1
 ```
 
-2. Install galaxy2galaxy environment:
+2. Install ShapeNetL1 environment:
 
 ```
 cd ShapeNetL1/environments
-conda env create -f galaxy2galaxy_env.yaml
-cd ..
+export PYTHONNOUSERSITE=1
+conda env create -f ShapeNetL1.yaml
 ```
 
 2. Activate the environment:
 
 ```bash
-conda activate galaxy2galaxy
+conda activate ShapeNetL1
 ```
 
 3. Download the TFRecord files:
@@ -102,7 +102,8 @@ python train.py --model_dir=/home/models --data_dir=/home/data_dir_optical/ --sh
 The original SUNet was adjusted for this project to work with the dataset generated. To use it you will need to create a new environment, using SUNet_env.yaml, inside the environments directory:
 
 ```bash
-conda env create -f SUNet_env.yaml
+export PYTHONNOUSERSITE=1
+conda env create -f SUNet.yaml
 ```
 
 Then git clone my fork to your desired directory:
