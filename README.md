@@ -5,6 +5,10 @@ This repository contains the code used in my thesis. It uses the code of three o
 
 This repository is not an official fork of any of these projects.
 
+![Galaxy Examples](images/GalaxyExamples.png)
+![Flux Mean Error](images/FluxMeanError.png)
+![Shape Mean Error](images/ShapeMeanError.png)
+
 # Disclaimer and Attributions
 This repository uses the code of three other projects. The original upstream of these projects are:
 - galaxy2galaxy (cfht2hst_prblm branch)
